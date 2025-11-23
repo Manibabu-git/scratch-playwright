@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("dropdown validation", async ({ page }) => {
+test("Radio button validation", async ({ page }) => {
   await page.goto("https://testautomationpractice.blogspot.com/");
   await page.locator("#male").click();
   await page.waitForTimeout(5000);
