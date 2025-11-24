@@ -1,0 +1,2 @@
+this is the text file 
+i am going to upload this through playwright automation script
