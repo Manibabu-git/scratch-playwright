@@ -12,5 +12,6 @@ test("Date picker example", async ({ page }) => {
 
   const dates = await page.locator('[class="ui-state-default"]');
   await dates.nth(`${date - 1}`).click(); //nth is starts from 0.
+  await page.locator("//input[@id='start-date']").type("10-12-2025");
   await page.waitForTimeout(3000);
 });
